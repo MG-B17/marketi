@@ -14,5 +14,5 @@ class AppColor {
 
   static const Color borderColor = Color.fromRGBO(178, 204, 255, 0.7);
 
-
+  static const Color errorColor = Colors.red;
 }
