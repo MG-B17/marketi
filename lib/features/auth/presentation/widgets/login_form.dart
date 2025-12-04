@@ -39,7 +39,9 @@ class _LoginFormState extends State<LoginForm> {
       child: Column(
         children: [
           MarketiTextFormFiled(
-            validator: (value) {},
+            validator: (value) {
+              return null;
+            },
             textEditingController: emailController,
             keyboardType: TextInputType.emailAddress,
             hintText: AppStrings.userNameOrEmail,
@@ -47,7 +49,7 @@ class _LoginFormState extends State<LoginForm> {
           ),
           SizedBox(height: 10.h),
           MarketiTextFormFiled(
-            validator: (value) {},
+            validator: (value) {return null;},
             textEditingController: passwordController,
             showSufixIcon: true,
             onTapSufixIocn: () {},

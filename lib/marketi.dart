@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:marketi/config/app_theme/app_theme.dart';
-import 'package:marketi/features/auth/presentation/screens/login_screen.dart';
 import 'package:marketi/features/onboarding/screen/onboarding_screen.dart';
 
 class Marketi extends StatelessWidget {
@@ -18,7 +17,7 @@ class Marketi extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: appTheme,
-          home:LoginScreen(),
+          home:OnboardingScreen(),
         );
       },
     );

@@ -46,4 +46,23 @@ class AppStrings {
   static const String signUp = "Sign Up";
 
   static const String skip = "Skip";
+
+  static const String forgetPasswordPhone =
+      "Please enter your phone number to\nreceive a verification code";
+
+  static const String forgetPasswordEmail =
+      "Please enter your email address to\nreceive a verification code";
+
+  static const String verificationcodestatment =
+      "Please enter the 4 digit code\nsent to: ";
+
+  static const String sendCode = "Send Code";
+
+  static const String verifyCode = "Verify Code";
+
+  static const String resendCode = "Resend Code";
+
+  static const String verificationcode = "Verification Code";
+
+  static const String tryAnotherWay = "Try Another Way";
 }

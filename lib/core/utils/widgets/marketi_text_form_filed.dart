@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:marketi/core/utils/app_color.dart';
-import 'package:marketi/core/utils/app_strings.dart';
 import 'package:marketi/core/utils/app_styles.dart';
 
 class MarketiTextFormFiled extends StatelessWidget {
