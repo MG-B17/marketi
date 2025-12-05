@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:marketi/config/navigation/navigation.dart';
 import 'package:marketi/core/utils/app_color.dart';
 import 'package:marketi/core/utils/app_strings.dart';
 import 'package:marketi/core/utils/app_styles.dart';
 import 'package:marketi/core/utils/widgets/custom_button.dart';
 import 'package:marketi/core/utils/widgets/marketi_text_form_filed.dart';
+import 'package:marketi/features/auth/presentation/screens/forget_password_phone.dart';
 
 class LoginForm extends StatefulWidget {
   const LoginForm({super.key});
@@ -69,7 +71,9 @@ class _LoginFormState extends State<LoginForm> {
               Text(AppStrings.rememberMe, style: AppStyles.style12),
               const Spacer(),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  PushNavigation().customNavigation(context: context, screen:ForgetPasswordPhone());
+                },
                 child: Text(
                   AppStrings.forgetPassword,
                   style: AppStyles.style12w500,

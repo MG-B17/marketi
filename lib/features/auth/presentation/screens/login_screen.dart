@@ -23,7 +23,6 @@ class LoginScreen extends StatelessWidget {
             child: Stack(
               children: [
                 SkipButton(),
-
                 Column(
                   spacing: 10.h,
                   crossAxisAlignment: CrossAxisAlignment.center,
